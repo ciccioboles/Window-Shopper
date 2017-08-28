@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
@@ -63,11 +68,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-dL-cPH">
-                                <rect key="frame" x="20" y="617" width="335" height="30"/>
+                                <rect key="frame" x="20" y="582" width="335" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bE7-9Y-pEg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="Clear Calculator">
                                     <color key="titleColor" red="1" green="0.98267868599999997" blue="0.99078934559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -97,7 +102,7 @@
                             <constraint firstItem="3cW-rU-DkT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pPh-Lt-D6W"/>
                             <constraint firstItem="EKN-Uv-rWA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tnP-xB-HhW"/>
                             <constraint firstItem="dwV-rp-vjH" firstAttribute="height" secondItem="gad-Kf-YGK" secondAttribute="height" id="uMO-rz-oGE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o9s-dL-cPH" secondAttribute="bottom" constant="20" id="zSM-49-9hU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o9s-dL-cPH" secondAttribute="bottom" constant="55" id="zSM-49-9hU"/>
                             <constraint firstItem="S30-Ie-1dx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zzS-1b-3J3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
